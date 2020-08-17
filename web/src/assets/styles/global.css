@@ -54,6 +54,7 @@ input,
 button,
 textarea {
     font: 500 1.6rem Poppins;
+    color: var(--color-text-base);
 }
 
 /*App vai ocupar 90% da monha tela ate o limite de 700 pixels*/

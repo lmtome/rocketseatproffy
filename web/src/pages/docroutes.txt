@@ -1,0 +1,17 @@
+{/*Para criar rota de acesso as paginas do app instalei react-router-dom
+usando comando yarn add react-router-dom
+
+houve tbm a necessidade de instalar types para que pudesse enxergar o BrowserRouter e Route usando o comando
+yarn add @types/react-router-dom -D
+*/}
+
+{/*Eh preciso fazer o import de cada componente que estara sendo usado no Routes*/}
+
+{/*A Funtion Routes eh onde define como acessar cada component da minha app usando o browser e existem
+2 propriedades da Route que sao obrigatorias PATH indica caminho na minha URL que acessarei o componente e 
+COMPONENT que diz qual componente sera.
+
+Para definir o caminho exato na URL e evitar a confusao que fiquei horas aqui pra resolver... use a propriedade
+EXACT somente para o / porque ele faz parte do caminho de todos os outros componentes e por isso sem EXACT acaba
+mostrando os dois.
+*/}

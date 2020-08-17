@@ -1,0 +1,4 @@
+{/*Uso do Link eh para evitar que o app toda vez que va acessar o conteudo 
+de uma pagina faca a carga de todo os files, imports e componentes novamente.
+Precisa descer e substituir no componente o <a> </a> por <Link> </Link> e tambem
+trocar o href= por to=. Conferir no button-container, por exemplo*/}
